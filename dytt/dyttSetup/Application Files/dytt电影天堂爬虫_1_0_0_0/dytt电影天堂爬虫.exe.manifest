@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="dytt电影天堂爬虫.exe" version="1.0.0.0" publicKeyToken="92096bc92173862e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="dytt电影天堂爬虫" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="dytt电影天堂爬虫.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dytt电影天堂爬虫.exe" size="23552">
+      <assemblyIdentity name="dytt电影天堂爬虫" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PTLXAR8VEG1pIB8NV0Tw6i3HQv2JLrUVCjuWftCNiuw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="134656">
+      <assemblyIdentity name="HtmlAgilityPack" version="1.4.6.0" publicKeyToken="BD319B19EAF3B43A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SNCuOK3YiOSpjj9lW2J2pWpoIxH5nTXmtn/DcqtdHeM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.ThunderAgentLib.dll" size="29696">
+      <assemblyIdentity name="Interop.ThunderAgentLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QqJROJpOTLqJb8gHrGO8WxsQTIkEbDDT6bGiokDMa4U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="dytt电影天堂爬虫.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ThunderAgent9.1.26.614.dll" asmv2:size="132680" xmlns="urn:schemas-microsoft-com:asm.v1">
+    <hash xmlns="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d4K5WCkzRIp4TLSNV4oKdRKWRruGkX14+GJLpoOwgMk=</dsig:DigestValue>
+    </hash>
+    <typelib tlbid="{26d657ae-a466-4f44-ab1d-5cfffadbed97}" version="1.0" helpdir="" resourceid="0" flags="HASDISKIMAGE" />
+    <comClass clsid="{485463b7-8fb2-4b3b-b29b-8b919b0eacce}" threadingModel="Apartment" tlbid="{26d657ae-a466-4f44-ab1d-5cfffadbed97}" progid="ThunderAgent.Agent.1" description="Agent Class" />
+  </file>
+<publisherIdentity name="CN=好吧-PC\musa" issuerKeyHash="789d60f880cc15828a2910efbba4ee8ca30a2eed" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qSdkQoD05dC3o1XtuoUN5F3VLAqVsbB9mU6HwPKyzZk=</DigestValue></Reference></SignedInfo><SignatureValue>dnvsHYgOLvEH4Fu2FeYZj/5l3VJxXBkoEzcqEWoK/+60gNTUyPd3+ARb4cI/KQvRYT8cb4ovAfsIhEEp3rVZ2fNTkBUOjF7ksZmxBqNxKtTVuBSNyYxbjsIBE0ZzhqwHINPPm29j5OsYvhtSNTH9abWZH7lmIepNmT9y0Lrhilw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ozvtGFoYa0w2ItH/mOfhK6vvQoltFZ57ygTNh/YAoX4yl76T+6njPbxzbimYgZVwCO4ZP1+okD18GMkp66idhSmvHS5yxKI5kTPHbvKRSff9+fSw619u7kP8S3vnZSDDhPhE7wdXzLTYQHupoXruzBTkVFPX4sq6okmC/+ibhSc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="99cdb2f2c0874e997db0b1950a2cd55de40d85baed55a3b7d0e5f480426427a9" Description="" Url=""><as:assemblyIdentity name="dytt电影天堂爬虫.exe" version="1.0.0.0" publicKeyToken="92096bc92173862e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=好吧-PC\musa</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>79PiWN9an056FaTroQn/9U9DezOKyIw58Ve8SWb7FD8=</DigestValue></Reference></SignedInfo><SignatureValue>HCY99YufIEJKs81DYVoIEYJxKG2hp+K3BsJBlYSgV8NqkxvjL33bO4GTye0buJRNC5+ru622Nz+BvYZrhy9/2e5hdobDaca+0326RlX66Y0tcV7snAGztaDYwkj4pNGqPerJ42psjhu69lblthIeI9Y/qxYtAAiV5RK6KijuXlo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ozvtGFoYa0w2ItH/mOfhK6vvQoltFZ57ygTNh/YAoX4yl76T+6njPbxzbimYgZVwCO4ZP1+okD18GMkp66idhSmvHS5yxKI5kTPHbvKRSff9+fSw619u7kP8S3vnZSDDhPhE7wdXzLTYQHupoXruzBTkVFPX4sq6okmC/+ibhSc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQcY1FQMz8la9KsOqfYny4HDANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhRZfVQnAC0AUABDAFwAbQB1AHMAYTAeFw0xNzA1MDIwOTE3MjRaFw0xODA1MDIxNTE3MjRaMB8xHTAbBgNVBAMeFFl9VCcALQBQAEMAXABtAHUAcwBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjO+0YWhhrTDYi0f+Y5+Erq+9CiW0VnnvKBM2H9gChfjKXvpP7qeM9vHNuKZiBlXAI7hk/X6iQPXwYySnrqJ2FKa8dLnLEojmRM8du8pFJ9/359LDrX27uQ/xLe+dlIMOE+ETvB1fMtNhAe6mheu7MFORUU9fiyrqiSYL/6JuFJwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABaXYgWmeQDVLCX7VUYmdIUQ6fJaD0HWzyMfJLZK/SbE/Yd4/IC/reI1gTFmjsVHj9/Jg7mO49VQT2VFJoh0jS5700Rsk1ukLmrV2Ri1LydQ96s9Xdjeu+vIsMM5NAiynwI0MY4NB6ZaFRUdPQ/X46WVuZNbBBw5W7/0wI++fdIu</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
