@@ -1,8 +1,8 @@
 # Dytt crawler
 
-常用下载电影的网站：[http://www.dytt8.net/](http://http://www.dytt8.net/ "电影天堂")
+常用下载电影网站：[http://www.dytt8.net/](http://http://www.dytt8.net/ "电影天堂")
 
-爬去电影资源的实现。
+抓取电影资源，方便下载。
 
 ## 平台和语言
 
